@@ -1,0 +1,20 @@
+{
+  "name": "cryptotracker-api",
+  "version": "1.0.0",
+  "description": "A Node.js app to fetch and store cryptocurrency data every 2 hrs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "node-cron": "^3.0.3"
+  }
+}
