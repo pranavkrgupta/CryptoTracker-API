@@ -1,7 +1,6 @@
 // Defines the structure for storing cryptocurrency data
 
 const mongoose = require("mongoose");
-const { type } = require("os");
 
 const cryptoSchema = new mongoose.Schema({
   coinId: { type: String, required: true },
