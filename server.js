@@ -1,7 +1,7 @@
 const express = require("express");
 const connectDB = require("./config/db");
 require("dotenv").config();
-require("./jobs/cryptoJob"); // start the background job
+const cryptoJob = require("./jobs/cryptoJob"); // start the background job
 
 const cryptoRoutes = require("./routes/cryptoRoutes");
 
